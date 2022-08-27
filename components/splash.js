@@ -20,7 +20,7 @@ export default function Splash({navigation})
     
 function dealy() 
 {
-  AsyncStorage.getItem("wwwr").then((value)=>{
+  AsyncStorage.getItem("visited").then((value)=>{
     {value?  setTimeout(()=>{
       navigation.navigate("about");
     },1000):  setTimeout(()=>{
