@@ -9,7 +9,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 export default function FirstTime()
 {
     useEffect(()=>{
-        AsyncStorage.setItem("wwwr" , "yes")
+        AsyncStorage.setItem("visited" , "yes")
     });
 
     return (
